@@ -7,4 +7,4 @@ services:
       - ./src/:/app/
     environment: 
       - PASSWORD=riotly
-      - WG_HOST=wg-easy-1.onrender.com/
+      - WG_HOST=wg-easy-1.onrender.com
