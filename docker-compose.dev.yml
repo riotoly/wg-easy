@@ -6,5 +6,5 @@ services:
     volumes:
       - ./src/:/app/
     environment: 
-      # - PASSWORD=p
-      - WG_HOST=192.168.1.233
+      - PASSWORD=riotly
+      - WG_HOST=wg-easy-1.onrender.com/
