@@ -8,7 +8,7 @@ services:
 
       # Optional:
       # - PASSWORD=foobar123
-       - WG_PORT=10000
+      # - WG_PORT=10000
       # - WG_DEFAULT_ADDRESS=10.8.0.x
       # - WG_DEFAULT_DNS=1.1.1.1
       # - WG_MTU=1420
@@ -23,8 +23,8 @@ services:
     volumes:
       - .:/etc/wireguard
     ports:
-      - "51820:51820/udp"
-      - "51821:51821/tcp"
+      - "10000:10000/udp"
+      - "10000:10000/tcp"
     restart: unless-stopped
     cap_add:
       - NET_ADMIN
